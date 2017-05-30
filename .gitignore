@@ -1,5 +1,6 @@
 .gradle
 /build/
+<<<<<<< HEAD
 !gradle/wrapper/gradle-wrapper.jar
 
 ### STS ###
@@ -24,3 +25,17 @@ dist/
 nbdist/
 .nb-gradle/
 bin/
+=======
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Cache of project
+.gradletasknamecache
+
+# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
+# gradle/wrapper/gradle-wrapper.properties
+>>>>>>> ec683a143c977c30761a74747d67abe57cfbf532
