@@ -1,0 +1,20 @@
+security:
+  oauth2:
+    client:
+      client-id: <salesforce consumer key>
+      client-secret: <salesforce consumer token>
+      access-token-uri: https://login.salesforce.com/services/oauth2/token
+      user-authorization-uri: https://login.salesforce.com/services/oauth2/authorize
+      token-name: oauth_token
+      authentication-scheme: query
+      client-authentication-scheme: form
+    resource:
+      user-info-uri:  https://login.salesforce.com/services/oauth2/userinfo
+
+server:
+  port: 8443
+  ssl:
+    key-store: /home/na/keystore.p12
+    key-store-password: salesforce
+    key-store-type: PKCS12
+    key-alias: tomcat
